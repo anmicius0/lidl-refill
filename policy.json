@@ -1,0 +1,9 @@
+[
+  {
+    "name": "keep-latest-only",
+    "action": { "type": "Keep" },
+    "mostRecentVersions": {
+      "keepCount": 1
+    }
+  }
+]

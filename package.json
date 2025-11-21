@@ -1,0 +1,22 @@
+{
+  "name": "lidl-refill",
+  "version": "0.1.0",
+  "description": "Automated Lidl refill activation using Playwright",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "bun main.js",
+    "dev": "bun --watch main.js",
+    "build": "bun build main.js --target=node --external=electron --minify --outdir=dist --entry-name=main.bundle.js"
+  },
+  "keywords": [
+    "lidl",
+    "automation",
+    "playwright-core"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.56.1"
+  }
+}
